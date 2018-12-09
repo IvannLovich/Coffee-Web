@@ -1,0 +1,247 @@
+@import 'generales';
+@import 'header';
+@import 'main';
+@import 'footer';   
+   
+
+
+
+
+
+#preloader{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    transition: all 4s ease;
+    z-index: 1000;
+}
+
+#preloader i {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    color: #000;
+    font-size: 100px;
+    
+
+    
+    
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media (min-width: 750px){
+    
+        
+    header .menu{
+    height: auto !important;
+    display: block;
+    width: 100%;
+    text-align: right;
+    left: 0;
+    background: none;
+    overflow: hidden;
+    position: absolute;
+    
+}
+    
+    
+    
+    header .menu a{
+    
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+    padding: .5rem 0;
+    text-transform: none
+        
+        
+    }
+
+   
+    
+}
+
+
+
+//@media (max-width: 384px){
+//    .main .menu article .nombre,
+//    .main .menu article .precio,
+//    .main .menu article .descripcion{
+//        font-size: 7px;
+//        line-height: 18px;
+//   
+//    }
+//    
+//}
+
+
+
+
+
+@media (max-width: 510px){
+//    header .menu a{
+//        font-size: 7.5px;
+//    }
+    
+    .main .acerca-de article h3{
+        font-size: 30px;
+        
+    }
+ 
+}
+
+
+@media (max-width: 530px){
+    .main .ubicacion .direccion,
+    .main .ubicacion .horarios{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 660px){
+    .main .menu article .nombre,
+    .main .menu article .precio,
+    .main .menu article .descripcion{
+        font-size: 7.5px;
+        line-height: 18px;
+   
+    }
+    
+    .main .menu article .categoria{
+        font-size: medium;
+    }
+    
+}
+
+
+
+
+@media (max-width: 800px){
+    header .contenedor{
+        position: static;
+        height: auto;
+    }
+    
+    
+    header .menu{
+        text-align: center;
+    
+    }
+    
+    header .menu a{
+        margin: 10px 20px;
+        
+        
+    }
+    
+    
+    
+    header .textos{
+        position: static;
+        margin: 100px 0;
+    }
+    
+    
+    header .textos .nombre{
+        font-size: 30px;
+        
+        
+    }
+    
+    header .textos h3{
+        font-size: 18px;
+        
+        
+    }
+    
+    
+    .main .acerca-de .foto{
+        width: 100%;
+        position: absolute;
+    }
+    
+    .main .acerca-de article{
+        width: 100%;
+        position: relative;
+        transform: translate(0px, 0);
+        
+    }
+    
+    .main .menu .contenedor-menu,
+    .main .menu .contenedor-menu2{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    
+    .main .galeria .foto{
+        width: 50%;
+    }
+    
+    .main .mapa{
+        width: 80%;
+        margin: auto;
+    }
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

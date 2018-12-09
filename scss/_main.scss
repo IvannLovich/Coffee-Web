@@ -1,0 +1,210 @@
+/* MAIN */
+
+.main{
+    background: url("../Images/bg-textura.png");
+    background-repeat: repeat;
+    
+}
+
+.main .acerca-de .contenedor{
+    display: flex;
+    justify-content: flex-end;
+    overflow: visible;
+    position: relative;
+}
+
+
+
+.main .acerca-de .foto{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+    
+}
+
+.main .acerca-de .foto img{
+    vertical-align: top;
+    width: 100%;
+}
+
+.main .acerca-de article{
+    background: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+//    top: 500px;
+    top: 200px;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+
+.main .acerca-de article h3{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main .acerca-de article p{
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+
+.main .menu{
+    padding-top: 300px;
+    margin-bottom: 50px;
+}
+
+.main .menu .titulo{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main .menu .contenedor-menu,
+.main .menu .contenedor-menu2{
+    display: flex;
+    border: 1px solid #000;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.main .menu article{
+    width: 50%;
+    padding: 20px;
+}
+
+.main .menu .categoria{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+.main .menu .plato{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-top: 4px dotted #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+     
+}
+
+
+.main .menu .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+//    float: left;
+}
+
+
+.main .menu .precio{
+    font-size: 20px;
+    margin-bottom: 15px;
+//    float: right;
+}
+
+
+.main .menu .descripcion{
+    font-size: 16px;
+    color: #676767;
+//    clear: both;
+}
+
+
+.main .galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.main .galeria .foto{
+    width: 25%;
+}
+
+.main .galeria .foto img{
+    width: 100%;
+    opacity: .7;
+   
+}
+
+.main .galeria .foto:hover img{
+    opacity: 1;
+    transition: all .3s ease;
+//    -webkit-transition: all .3s ease ;
+//    -o-transition: all .3s ease;
+//    transition: all .3s ease;
+}
+
+.main .ubicacion{
+    background: #fff;
+    overflow: hidden;
+    
+}
+
+.main .ubicacion .contenedor{
+    margin-bottom: 4rem;
+}
+
+
+
+.main .ubicacion .titulo{
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    
+}
+
+.main .ubicacion .direccion{
+    float: left;
+    width: 50%;
+    text-align: left;
+   
+}
+
+.main .ubicacion .horarios{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.main .ubicacion .horarios h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.main .ubicacion .horarios .entre-semana,
+.main .ubicacion .horarios .fin-semana{
+    text-align: center;
+}
+
+
+.main .ubicacion .dias{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.main .mapa{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    
+}
+
+.main .mapa iframe{
+    width: 100%;
+    max-height: 800px;
+    margin-bottom: .2rem;
+}
